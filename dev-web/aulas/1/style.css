@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 90vh;
+
+}
+#left, #right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+}
+#right{
+    display: flex; 
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+}
+#input-area{
+    width: 20%;
+    align-items: center;
+}

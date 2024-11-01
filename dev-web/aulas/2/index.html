@@ -1,0 +1,30 @@
+*************************************************************************
+* fazer com que o usuário possa arrastar os campos de um lado pro outro *
+*************************************************************************
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stlyle.css   ">
+    <title>Gerador de Checkboxes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="checkboxes" id="checkboxContainer"></div>
+        <div class="input-area">
+            <input type="number" id="checkboxCount" placeholder="Número de checkboxes" min="1">
+            <button id="generateBtn">Gerar</button>
+        </div>
+        
+        <div class="output-area">
+            <h3>Selecionados:</h3>
+            <div id="selectedText"></div>
+            <button id="copyBtn">Copiar</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
